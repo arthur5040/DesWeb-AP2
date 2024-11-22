@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
     const session = sessionStorage.getItem("userName");
     if (session !== "ce855f48b7422de36b50512a9a0a06a59d4f2f6efac6f439456777a396773cc1") {
-        window.location.href = "../login.html";
+        window.location.href = "../index.html";
     }
 });
 
 const btnBack = document.getElementById("btn-back");
 btnBack.addEventListener("click", () => {
-    window.location.href = "../index.html";
+    window.location.href = "../principal.html";
 });
 
 async function asyncMoreInformation() {

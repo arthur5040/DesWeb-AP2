@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atletas Botafogo 2024-1</title>
+        <link rel="shortcut icon" href="https://github.githubassets.com/images/icons/emoji/octocat.png"
+            type="image/x-icon">
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+
+    <body>
+        <header class="header-container">
+            <h1>Atletas Botafogo 2024-1</h1>
+            <nav class="nav">
+                <button type="button" class="btn-logout" id="btn-logout">Sair</button>
+            </nav>
+        </header>
+
+        <main>
+            <aside class="select-menu ">
+                <button type="button" class="btn-menu" id="masculine">Masculino</button>
+                <button type="button" class="btn-menu" id="feminine">Feminino</button>
+                <button type="button" class="btn-menu" id="all">Elenco Completo</button>
+            </aside>
+
+            <div class="input-container">
+                <input type="text" placeholder="Busque por nome" class="input-id" id="input-id">
+            </div>
+
+            <h2 class="h2">Jogadores:</h2>
+            <section class="container-players container-atletas" id="container-players"></section>
+        </main>
+
+        <script src="./js/index.js"></script>
+    </body>
+
+</html>
