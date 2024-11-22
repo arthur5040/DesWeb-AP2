@@ -36,7 +36,7 @@
                 if (document.getElementById('input').value === "LIBERTADORES") {
                     const encryptedPassword = hex_sha256(document.getElementById('input').value);
                     sessionStorage.setItem('userName', encryptedPassword);
-                    window.location.href = "./index.html";
+                    window.location.href = "./principal.html";
                 }
             }
         });
