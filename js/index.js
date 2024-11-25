@@ -70,7 +70,7 @@ function exec() {
         information.classList.add("information");
         information.addEventListener("click", (e) => {
             // Pegar a informação do ID e passando via QUERY STRING REDIRECIONANDO para a pagina DETALHES.html, que irá fazer um FETCH(GET) a partir do ID e usar as informações do jogador retornado.
-            window.location.href = `/descricao.html?id=${e.target.parentNode.dataset.id}`;
+            window.location.href = `../descricao.html?id=${e.target.parentNode.dataset.id}`;
         });
 
         article.append(imgPlayer, titleH2, information);
