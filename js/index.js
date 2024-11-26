@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     session !==
     "ce855f48b7422de36b50512a9a0a06a59d4f2f6efac6f439456777a396773cc1"
   ) {
-    window.location.href = "../index.html";
+    window.location.href = "../DesWeb-AP2/index.html";
   } else {
     exec();
   }
@@ -15,7 +15,7 @@ function exec() {
 
   const btnLogout = document.getElementById("btn-logout");
   btnLogout.addEventListener("click", () => {
-    window.location.href = "../index.html";
+    window.location.href = "../DesWeb-AP2/index.html";
     sessionStorage.removeItem("userName");
   });
 
