@@ -73,12 +73,12 @@ function exec() {
     titleH2.classList.add("titleH2");
 
     // Link com o saiba mais
-    const information = document.createElement("a");
+    const information = document.createElement("h3");
     information.textContent = "Saiba Mais";
     information.classList.add("information");
     information.addEventListener("click", (e) => {
       // Pegar a informação do ID e passando via QUERY STRING REDIRECIONANDO para a pagina DETALHES.html, que irá fazer um FETCH(GET) a partir do ID e usar as informações do jogador retornado.
-      window.location.href = `../descricao.html?id=${player.id}`;
+      window.location.href = `../DesWeb-AP2/descricao.html?id=${e.target.parentNode.dataset.id}`;
     });
 
     article.append(imgPlayer, titleH2, information);

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const btnBack = document.getElementById("btn-back");
 btnBack.addEventListener("click", () => {
-    window.location.href = "../principal.html";
+    window.location.href = "../DesWeb-AP2/principal.html";
 });
 
 async function asyncMoreInformation() {
